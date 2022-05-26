@@ -1,5 +1,5 @@
 import Cards from "../../components/cards/Cards";
-import styles from "./Dashboard.module.css";
+import * as styles from "./Dashboard.module.css";
 import { UserContext } from "../../context/UserInfo";
 import { useContext } from "react";
 import "./Dashboard.module.css";

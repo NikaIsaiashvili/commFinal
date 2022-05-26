@@ -1,5 +1,5 @@
 import LogIn from "../../components/login form/Login";
-import styles from "./SignPage.module.css"
+import * as styles from "./SignPage.module.css"
 import { useLocation } from "react-router-dom";
 
 function SignIn() {
