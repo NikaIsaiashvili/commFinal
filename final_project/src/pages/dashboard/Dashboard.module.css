@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, "Segoe UI", "Open Sans", "Helvetica Neue";
+}
+
+body {
+  width: auto;
+  height: fit-content;
+  padding-bottom: 3rem;
+  background: linear-gradient(to bottom right, #8854d0, #60a3bc);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.LoadBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoadBtn {
+  color: #182c61;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 4px solid #2bcbba;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.LoadBtn:hover {
+  background: linear-gradient(to bottom right, #2bcbba, transparent);
+  color: #182c61;
+  font-weight: 700;
+  border-color: #182c61;
+}

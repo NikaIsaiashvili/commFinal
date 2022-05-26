@@ -1,0 +1,148 @@
+.SignUpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.SignUpContainer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 70%;
+  height: auto;
+  padding: 2% 0;
+  margin: 0 15%;
+  background-color: #10fc7a18;
+  margin-top: 3rem;
+  border: 4px solid #2bcbba;
+  border-radius: 15px;
+}
+
+.BorderBottom {
+  border-bottom: 2px solid #2bcbba;
+  width: 50%;
+  height: auto;
+}
+.BorderTop {
+  border-top: 2px solid #2bcbba;
+  width: 80%;
+  height: auto;
+}
+
+.SignUpText {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.SignUpInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2.5rem;
+  font-weight: 700;
+  height: auto;
+}
+
+.SignUpContainer input {
+  color: #2bcbba;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  margin-top: 0.5rem;
+  border: 0.3rem solid #60a3bcb7;
+  background-color: #60a3bc3d;
+  outline: none;
+}
+
+.SignUpContainer input:focus:invalid {
+  box-shadow: 0 1rem 2rem #ff9f43;
+  border-bottom: 0.3rem solid #ff9f43;
+}
+
+.SignUpContainer input:focus:valid {
+  box-shadow: 0 1rem 2rem #2bcbba;
+  border-bottom: 0.3rem solid #2bcbba;
+}
+
+.SignUpLabelName {
+  width: 100%;
+  color: #2bcbba;
+  margin-bottom: 1rem;
+}
+
+.SignUpLabelLastName {
+  width: 100%;
+  color: #2bcbba;
+  margin-bottom: 1rem;
+}
+
+.SignUpLabelUserName {
+  width: 100%;
+  color: #2bcbba;
+  margin-bottom: 1rem;
+}
+
+.SignUpLabelEmail {
+  width: 100%;
+  color: #2bcbba;
+  margin-bottom: 1rem;
+}
+
+.SignUpLabelPassword {
+  width: 100%;
+  color: #2bcbba;
+  margin-bottom: 1rem;
+}
+
+#InputName {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#InputLastName {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#InputUserName {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#InputEmail {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#InputAge {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#InputPassword {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.SignUpBtn {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 1.2rem;
+  color: #dfe6e9;
+  cursor: pointer;
+  background: linear-gradient(#8854d065, #60a3bcb7);
+  border: 2px solid #2bcbba;
+  margin-top: 0.7rem;
+  padding: 0.7rem 3rem;
+  transition: all 0.3s;
+}
+
+.SignUpBtn:hover {
+  background-color: #2bcbba;
+}

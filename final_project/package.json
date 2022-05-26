@@ -1,0 +1,40 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "format": "prettier --write  \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.js\" ",
+    "lint:fix": "eslint \"src/**/*.js\" --fix"
+  },
+  "author": "N.Isaiashvili",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "axios": "^0.27.2",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.9.2",
+    "buffer": "^6.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2",
+    "process": "^0.11.10"
+  },
+  "browserlist": [
+    "defaults"
+  ]
+}

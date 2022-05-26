@@ -1,0 +1,86 @@
+/* Navigation Full Container*/
+.NavContainer {
+  width: 90%;
+  padding: 0 2rem;
+  margin: 0 5%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #182c61;
+}
+
+nav ul li a.ActiveBorder {
+  padding-bottom: 0.3rem;
+  border-bottom: 3.5px solid #2bcbba;
+}
+
+.GitLogo {
+  font-size: 100px;
+  color: #2bcbba;
+  flex: 1;
+}
+
+.List {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #182c61;
+  font-size: large;
+  font-weight: 700;
+  border-bottom: 5px solid #10fc7a57;
+}
+
+.ListItem {
+  display: inline-block;
+  margin: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.ListItem::after {
+  transition: all ease-in 0.3s;
+  background: none repeat scroll 0 0 #2bcbba;
+  content: "";
+  display: block;
+  height: 0.2rem;
+  margin-top: 0.2rem;
+  width: 0;
+}
+
+.ListItem:hover::after {
+  color: #2bcbba;
+  width: 100%;
+}
+
+.ListIcon {
+  font-size: 1.5rem;
+  color: #2bcbba;
+}
+
+.ListItem:hover .ListIcon {
+  transition: all ease-in 0.3s;
+  color: #182c61;
+}
+
+.LogOutButton {
+  color: #182c61;
+  font-size: medium;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  margin-left: 5rem;
+  background-color: transparent;
+  border: 3px solid #2bcbba;
+  transition: all ease-out 0.5s;
+  cursor: pointer;
+}
+
+.LogOutButton:hover {
+  background-color: #182c61;
+  color: #2bcbba;
+}

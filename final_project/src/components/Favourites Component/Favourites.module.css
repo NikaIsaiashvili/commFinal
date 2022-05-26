@@ -1,0 +1,72 @@
+.FavContainer {
+  width: 90%;
+  height: auto;
+  padding: 0 2rem;
+  margin: 0 5%;
+}
+
+.FavCardContainer {
+  display: flex;
+  min-height: 70vh;
+  margin-top: 1rem;
+  border: 3px solid #10fc7a57;
+}
+
+.FavCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 20%;
+  flex: 1;
+}
+
+.FavCard {
+  padding: 2rem;
+  margin: 1rem;
+  flex-basis: 20%;
+  border: 4px solid #10fc7a57;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.FavCard img {
+  border: 4px solid #10fc7a57;
+  border-radius: 5px;
+  box-shadow: 7px -7px #10fc7a2a;
+  padding: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 7rem;
+}
+
+.FavCard p {
+  color: #182c61;
+  font-weight: 600;
+  padding: 0.4rem 0;
+}
+
+.FavCard p:nth-last-of-type(1) {
+  margin-bottom: 2rem;
+}
+
+.FavBtn {
+  font-size: 0.9rem;
+  background-color: #182c61;
+  border: 2px solid #2bcbba;
+  padding: 0.5rem 2rem;
+  color: #2bcbba;
+  line-height: 1rem;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.FavBtn:hover {
+  background: linear-gradient(to bottom right, #2bcbba, transparent);
+  color: #182c61;
+  font-weight: 700;
+}

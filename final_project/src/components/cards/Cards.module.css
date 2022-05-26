@@ -1,0 +1,65 @@
+.CardContainer {
+ display: inline-block;
+ width: 22%;
+ margin-left: 2.5%;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 4px solid #10fc7a57;
+  margin: 2rem .5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Card img {
+  border: 4px solid #10fc7a57;
+  border-radius: 5px;
+  box-shadow: 7px -7px #10fc7a2a;
+  padding: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 7rem;
+}
+
+.TextBox {
+  text-align: center;
+}
+
+.TextBox p {
+  color: #182c61;
+  font-weight: 600;
+  padding: 0.7rem 0;
+}
+
+.TextBox p:nth-last-of-type(1) {
+  margin-bottom: 2rem;
+}
+
+.TextBox p span {
+  color: #e2d737;
+  margin-left: .3rem;
+}
+
+.Card a {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  background-color: #182c61;
+  border: 2px solid #2bcbba;
+  padding: .5rem;
+  color: #2bcbba;
+  line-height: 1rem;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.Card a:hover {
+  background: linear-gradient(to bottom right, #2bcbba, transparent);
+  color: #182c61;
+  font-weight: 700;
+}

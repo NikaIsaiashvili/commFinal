@@ -1,0 +1,16 @@
+.PAGE_NOT_FOUND {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.Not_Found_Text {
+  color: #2bcbba;
+  letter-spacing: 0.3rem;
+}
+
+.Not_Found_Text span {
+  color: #ff9f43;
+}
